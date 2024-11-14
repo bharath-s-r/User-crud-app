@@ -4,7 +4,7 @@ const contactRouter = require("./routes/contactRoutes");
 const userRouter = require("./routes/userRoutes");
 const errorHandler = require("./middleware/errorHandler");
 const connectToDB = require("./config/connectToDatabase");
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 
 const port = process.env.PORT || 5000;
 
